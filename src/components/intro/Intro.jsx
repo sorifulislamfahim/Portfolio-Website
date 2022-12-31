@@ -1,7 +1,7 @@
 import React from "react";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
-import imran from "../../assets/imran.png";
+import fahim from "../../assets/fahim.png";
 import "./intro.css";
 
 const Intro = () => {
@@ -12,7 +12,7 @@ const Intro = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={imran} alt="" srcset="" />
+            <img src={fahim} alt="" srcset="" />
           </div>
         </div>
         <div className="about__content">
@@ -28,7 +28,7 @@ const Intro = () => {
               <small>20+ Completed Projects</small>
             </article>
           </div>
-          <p className="about">Hello! I am Fayjul Islam Al Imran. I can build web applications that are fully responsive on any device. I always write standard codes that are so much clean and easy to understand, that are reusable, and supported by all browsers. I build websites by writing a minimum line of code, and that website load faster. I write SEO-friendly code. I have built lots of websites since 2021 using HTML 5, CSS 3, JavaScript, Bootstrap, and Tailwind. Now I am also learning MongoDB, Express, React, and NodeJS to become a MERN Stack Developer.</p>
+          <p className="about">Hello! I am Soriful Islam Fahim. I can build web applications that are fully responsive on any device. I always write standard codes that are so much clean and easy to understand, that are reusable, and supported by all browsers. I build websites by writing a minimum line of code, and that website load faster. I write SEO-friendly code. I have built lots of websites since 2021 using HTML 5, CSS 3, JavaScript, Bootstrap, and Tailwind. Now I am also learning MongoDB, Express, React, and NodeJS to become a MERN Stack Developer.</p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>

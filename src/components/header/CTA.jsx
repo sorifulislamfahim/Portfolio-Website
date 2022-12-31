@@ -7,7 +7,7 @@ const CTA = () => {
       <a href={CV} download className="btn">
         Download Resume
       </a>
-      <a href="https://wa.me/8801775283801" className="btn btn-primary" target="_blank" rel="noreferrer">
+      <a href="https://wa.me/8801839321600" className="btn btn-primary" target="_blank" rel="noreferrer">
         WhatsApp Chat
       </a>
     </div>

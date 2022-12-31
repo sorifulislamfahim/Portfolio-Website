@@ -1,7 +1,7 @@
 import React from "react";
-import IMG1 from "../../assets/unicar.png";
-import IMG2 from "../../assets/nabiganj it.png";
-import IMG3 from "../../assets/dr john doe.png";
+import IMG1 from "../../assets/midtro doctor.png";
+import IMG2 from "../../assets/praxis learning.png";
+import IMG3 from "../../assets/genius car.png";
 
 import "./portfolio.css";
 //Portfolio function
@@ -9,30 +9,30 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: " Unicar",
+      title: "Midtro Doctor",
       img: IMG1,
-      description: "Single Page Application.All Crud Operation(Create,Read,Update,Delete).React Router Dom package for client side routing",
+      description: "A Hospital Service Web Application.",
       technologies: "React Js | Tailwind",
-      link: "https://shimmering-nougat-90c938.netlify.app/",
-      github: "https://github.com/fayjulislamalimran/unicar-client-side",
+      link: "https://meditro-client.web.app/",
+      github: "https://github.com/sorifulislamfahim/Midtro-Doctors-Client",
     },
     {
       id: 2,
-      title: " Nabiganj IT",
+      title: " Praxis Learning",
       img: IMG2,
-      description: "Each course card is dynamic so you click this card and redirect to your details page.",
+      description: "A Educational Course Related Web Application.",
       technologies: "React Js | Tailwind",
-      link: "https://nabiganj-it-server-client.web.app/",
-      github: "https://github.com/fayjulislamalimran/nabiganj-it-client-side",
+      link: "https://praxis-larning.web.app/",
+      github: "https://github.com/sorifulislamfahim/Praaxis-Larning-Coching-Center",
     },
     {
       id: 3,
-      title: " Dr John Doe",
+      title: " Genius Car",
       img: IMG3,
-      description: "Saw some services and added your service, every service has a details button to redirect the details page.",
+      description: "A Car All Parts Services Web Application.",
       technologies: "React Js | Tailwind",
-      link: "https://dr-john-doe-client.web.app/",
-      github: "https://github.com/fayjulislamalimran/dr-john-doe-client-side",
+      link: "https://genious-car-d21a1.web.app/",
+      github: "https://github.com/sorifulislamfahim/Genious-Car",
     },
   ];
 
